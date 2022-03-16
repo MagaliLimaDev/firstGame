@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.imagem1{
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+}
+.botaoJogador{
+  margin-left: 43%;
+  margin-right:42%;
+  background-color: black;
+  color: #fff;
+  border: radius 10px;;
+  border-color: rgb(242, 242, 245);  
+  border-style: double !important;
+  cursor: pointer;
+}
