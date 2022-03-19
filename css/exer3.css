@@ -1,0 +1,27 @@
+body{
+    background-image:url(../img/resilia.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+.texto{
+    text-align: center;
+    font-family: league;
+    font-size: 200%;
+}
+.botaoJogador{
+    margin-left: 43%;
+    margin-right:42%;
+    background-color: black;
+    color: #fff;
+    border: radius 10px;;
+    border-color: rgb(242, 242, 245);  
+    border-style: double !important;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+}

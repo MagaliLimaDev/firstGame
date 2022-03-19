@@ -67,7 +67,7 @@ input{
   .primeiroCardFront {
     position: absolute;
     backface-visibility: hidden;
-    background-image:url(../img/tristana.jpg);
+    background-image:url(/img/fase3Tristana.jpg);
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 10px;
