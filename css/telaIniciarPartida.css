@@ -19,7 +19,6 @@ h4{
     text-align: center;
     font-family: league;
     font-size: 200%;
-    background: linear-gradient(90deg, rgb(245, 245, 243) 0%, rgb(248, 248, 241) 35%, rgb(247, 247, 238) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

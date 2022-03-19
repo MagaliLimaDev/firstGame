@@ -1,0 +1,13 @@
+body {
+    background-image: url(../img/gameover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: league;
+}
