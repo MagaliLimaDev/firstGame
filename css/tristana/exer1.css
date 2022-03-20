@@ -1,5 +1,5 @@
 body{
-    background-image:url(../img/resilia.jpg);
+    background-image:url(/img/resilia.jpg);
     background-repeat: no-repeat;
     height: 800px;
     background-position: center;
@@ -21,7 +21,4 @@ body{
     border-color: rgb(242, 242, 245);  
     border-style: double !important;
     cursor: pointer;
-}
-h2 {
-    text-align: center;
 }
