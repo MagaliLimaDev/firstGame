@@ -173,7 +173,7 @@ function responderFase2Fizz(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'c' || resposta == 'C'){
             alert("Você passou para a próxima");
-            window.location.href='../fizz/fase3Fizz.html';
+            window.location.href='../fizz/fase3fizz.html';
             break;
         }else{
             erro = (erro - 1);
