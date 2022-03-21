@@ -8,6 +8,7 @@
     z-index: 0; /*Atributo para deixar na frente do backgroud e atrás do iniciar partida*/
     border-radius: 10px; /*Atributo para deixar a borda arredondada*/
     font-family: league; /*Atributo utilizado na fonte do iniciar partida*/
+    color: white;
 }
 
 .brilhoAoPassarMouse:hover:after  {

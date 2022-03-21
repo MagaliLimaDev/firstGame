@@ -15,6 +15,10 @@ function escolhaJogador (){
     }
 }
 
+function escolhaJogadorHtml (){
+    location.href= "/html/escolhaJogador.html";
+}
+
 function responderFase1Tristana(){
     var erro = 3;
 
