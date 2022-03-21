@@ -89,13 +89,13 @@ function responderFase1Heimerdinger(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'A' || resposta == 'a'){
             alert("Você passou para a próxima");
-            window.location.href='../html/heimerdinger/fase2.html';
+            window.location.href='../heimerdinger/fase2.html';
             break;
         }else{
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='../html/gameover.html';
+                window.location.href='../gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -110,13 +110,13 @@ function responderFase2Heimerdinger(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'c' || resposta == 'C'){
             alert("Você passou para a próxima");
-            window.location.href='../html/heimerdinger/fase3.html';
+            window.location.href='../heimerdinger/fase3.html';
             break;
         }else{
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='../html/gameover.html';
+                window.location.href='../gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -131,13 +131,13 @@ function responderFase3Heimerdinger(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'b' || resposta == 'B'){
             alert("PARABÉNS, VOCÊ CONSEGUIU!!");
-            window.location.href='../html/vitoria.html';
+            window.location.href='../vitoria.html';
             break;
         }else{
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='../html/gameover.html';
+                window.location.href='../gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -152,13 +152,13 @@ function responderFase1Fizz(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'A' || resposta == 'a'){
             alert("Você passou para a próxima");
-            window.location.href='../html/fizz/fase2fizz.html';
+            window.location.href='../fizz/fase2fizz.html';
             break;
         }else{
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='../html/gameover.html';
+                window.location.href='../gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -173,13 +173,13 @@ function responderFase2Fizz(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'c' || resposta == 'C'){
             alert("Você passou para a próxima");
-            window.location.href='../html/fizz/fase3Fizz.html';
+            window.location.href='../fizz/fase3Fizz.html';
             break;
         }else{
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='../html/gameover.html';
+                window.location.href='../gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -194,13 +194,13 @@ function responderFase3Fizz(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'b' || resposta == 'B'){
             alert("PARABÉNS, VOCÊ CONSEGUIU!!");
-            window.location.href='../html/vitoria.html';
+            window.location.href='../vitoria.html';
             break;
         }else{
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='../html/gameover.html';
+                window.location.href='../gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
