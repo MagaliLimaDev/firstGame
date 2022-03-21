@@ -32,7 +32,7 @@ function responderFase1Tristana(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -53,7 +53,7 @@ function responderFase2Tristana(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -74,7 +74,7 @@ function responderFase3Tristana(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -95,7 +95,7 @@ function responderFase1Heimerdinger(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -116,7 +116,7 @@ function responderFase2Heimerdinger(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -137,7 +137,7 @@ function responderFase3Heimerdinger(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -158,7 +158,7 @@ function responderFase1Fizz(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -179,7 +179,7 @@ function responderFase2Fizz(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
@@ -200,7 +200,7 @@ function responderFase3Fizz(){
             erro = (erro - 1);
             if(erro == 0){
                 alert("Você acabou com suas chances");
-                window.location.href='gameover.html';
+                window.location.href='../html/gameover.html';
             }else{
                 alert("Você tem mais " + erro + " tentativas");  
             }
