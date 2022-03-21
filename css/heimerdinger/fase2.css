@@ -1,7 +1,7 @@
 body{
-    background-image: url(/img/resilia.jpg);
+    background-image: url(/img/fase2hei.jpg);
     background-repeat: no-repeat;
-    height: 800px;
+    height: 500px;
     background-position: center;
     background-size: cover;
     color: white;
@@ -10,17 +10,20 @@ h1{
     text-align: center;
     margin-top: 80;
 }
-h2{
-    text-align: center;
-}
 .botaoJogador{
-    margin-left: 43%;
-    margin-right:42%;
-    margin-top: 80px;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 150px;
     background-color: black;
     color: #fff;
     border: radius 10px;;
     border-color: rgb(242, 242, 245);  
     border-style: double !important;
     cursor: pointer;
+}
+a{
+    color: #fff;
+}
+div{
+    display: flex;
 }

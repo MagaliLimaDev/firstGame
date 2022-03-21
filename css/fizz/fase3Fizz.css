@@ -1,0 +1,38 @@
+body{
+    background-image: url(/img/fase3fizz.jpg);
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(71, 71, 8) 35%, rgb(17, 17, 17) 100%);
+    text-align: center;
+    font-family: league;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 1200px;
+    
+}
+.botaoJogador{
+    margin-left: 20%;
+    margin-right:10%;
+    margin-top: 200px;
+    background-color: black;
+    color: #fff;
+    border: radius 10px;;
+    border-color: rgb(242, 242, 245);  
+    border-style: double !important;
+    cursor: pointer;
+}
+a{
+    color: #fff;
+}
+div{
+    display: flex;
+    width: 1200px;
+}
+.imgFundo{
+   
+}

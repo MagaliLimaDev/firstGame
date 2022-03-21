@@ -47,7 +47,7 @@ input{
   .card-back {
     transform: rotateY( 180deg);
     background-image: none;
-    background-color: #434941;
+    background-color: #818134;
     position: absolute;
     backface-visibility: hidden;
     height: 20rem;
@@ -56,10 +56,12 @@ input{
     margin-left: 10px;
     height: 340px;
     width: 230px;
+    font-family: league !important;
+    
   }
   
   .card-body {
-    font-size: 2rem;
+    margin: 3px;
     color: #fff;
     text-align: center;
   }  
@@ -67,7 +69,7 @@ input{
   .primeiroCardFront {
     position: absolute;
     backface-visibility: hidden;
-    background-image:url(/img/fase3Tristana.jpg);
+    background-image:url(/img/escolhaTristana.jpg);
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 10px;
@@ -76,6 +78,7 @@ input{
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 2rem;
   }
 
   .segundoCardFront {
@@ -90,6 +93,7 @@ input{
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 2rem;
   }
 
   .terceiroCardFront {
@@ -104,6 +108,7 @@ input{
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 2rem;
   }
   
 

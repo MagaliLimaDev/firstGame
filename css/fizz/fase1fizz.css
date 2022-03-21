@@ -1,0 +1,32 @@
+body{
+    background-image: url(/img/fase1fizz.jpg);
+    background-position: 70%;
+    font-family: league; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:rgb(5, 5, 5);
+    text-align: center;
+    height: 580px;
+    
+}
+.botaoJogador{
+    display: flex I !important;
+    flex-direction: row !important;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top:270px;
+    background-color: black;
+    color: #fff;
+    border: radius 10px;;
+    border-color: rgb(242, 242, 245);  
+    border-style: double !important;
+    cursor: pointer;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  a{
+    color: white;
+  }
