@@ -2,13 +2,13 @@ function escolhaJogador (){
     var fase1 = prompt ('Digite o número da opção desejada: \n 1-Tristana \n 2-Heimerding \n 3-Fizz');
     if(fase1 == 1){
         alert("Parabéns, você escolheu a Tristana!");
-        location.href= "/html/tristana/fase1Tristana.html";
+        location.href= "../html/tristana/fase1Tristana.html";
     }else if (fase1 == 2){
         alert("Parabéns, você escolheu o Heimeidinger!");
-        location.href= "/html/heimerdinger/fase1.html";
+        location.href= "../html/heimerdinger/fase1.html";
     }else if (fase1 == 3){
         alert("Parabéns, você escolheu o Fizz!");
-        location.href= "/html/fizz/fase1fizz.html";
+        location.href= "../html/fizz/fase1fizz.html";
     }else{
        alert("OPS!! \n Escolha um número de jogador válido!");
        
@@ -16,7 +16,7 @@ function escolhaJogador (){
 }
 
 function escolhaJogadorHtml (){
-    location.href= "/html/escolhaJogador.html";
+    location.href= "../html/escolhaJogador.html";
 }
 
 function responderFase1Tristana(){
@@ -26,7 +26,7 @@ function responderFase1Tristana(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'd' || resposta == 'D'){
             alert("Parabéns, você passou para a próxima fase!");
-            window.location.href='/html/tristana/fase2Tristana.html';
+            window.location.href='../html/tristana/fase2Tristana.html';
             break;
         }else{
             erro = (erro - 1);
@@ -47,7 +47,7 @@ function responderFase2Tristana(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'c' || resposta == 'C'){
             alert("Parabéns, você passou para a ultima fase!");
-            window.location.href='/html/tristana/fase3Tristana.html';
+            window.location.href='../html/tristana/fase3Tristana.html';
             break;
         }else{
             erro = (erro - 1);
@@ -68,7 +68,7 @@ function responderFase3Tristana(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'B' || resposta == 'b'){
             alert("Parabéns!!!");
-            window.location.href='/html/vitoria.html';
+            window.location.href='../html/vitoria.html';
             break;
         }else{
             erro = (erro - 1);
@@ -89,7 +89,7 @@ function responderFase1Heimerdinger(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'A' || resposta == 'a'){
             alert("Você passou para a próxima");
-            window.location.href='/html/heimerdinger/fase2.html';
+            window.location.href='../html/heimerdinger/fase2.html';
             break;
         }else{
             erro = (erro - 1);
@@ -110,7 +110,7 @@ function responderFase2Heimerdinger(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'c' || resposta == 'C'){
             alert("Você passou para a próxima");
-            window.location.href='/html/heimerdinger/fase3.html';
+            window.location.href='../html/heimerdinger/fase3.html';
             break;
         }else{
             erro = (erro - 1);
@@ -131,7 +131,7 @@ function responderFase3Heimerdinger(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'b' || resposta == 'B'){
             alert("PARABÉNS, VOCÊ CONSEGUIU!!");
-            window.location.href='/html/vitoria.html';
+            window.location.href='../html/vitoria.html';
             break;
         }else{
             erro = (erro - 1);
@@ -152,7 +152,7 @@ function responderFase1Fizz(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'A' || resposta == 'a'){
             alert("Você passou para a próxima");
-            window.location.href='/html/fizz/fase2fizz.html';
+            window.location.href='../html/fizz/fase2fizz.html';
             break;
         }else{
             erro = (erro - 1);
@@ -173,7 +173,7 @@ function responderFase2Fizz(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'c' || resposta == 'C'){
             alert("Você passou para a próxima");
-            window.location.href='/html/fizz/fase3Fizz.html';
+            window.location.href='../html/fizz/fase3Fizz.html';
             break;
         }else{
             erro = (erro - 1);
@@ -194,7 +194,7 @@ function responderFase3Fizz(){
         var resposta = prompt('Qual é a alternativa correta? \nDigite apenas a letra correspondente. \n A \n B \n C \n D');
         if(resposta == 'b' || resposta == 'B'){
             alert("PARABÉNS, VOCÊ CONSEGUIU!!");
-            window.location.href='/html/vitoria.html';
+            window.location.href='../html/vitoria.html';
             break;
         }else{
             erro = (erro - 1);
