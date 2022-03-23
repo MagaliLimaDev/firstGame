@@ -11,3 +11,15 @@ h1{
     text-align: center;
     font-family: league;
 }
+.botaoJogador{
+    margin-top: 28%;
+    margin-left: 42%;
+    margin-right:42%;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    border: radius 10px;;
+    border-color: rgb(242, 242, 245);  
+    border-style: double !important;
+    cursor: pointer;
+}
